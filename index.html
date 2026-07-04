@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name — CS Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <span class="logo">YN<span class="logo-dot">.</span></span>
+    <nav>
+      <a href="#work">work</a>
+      <a href="#about">about</a>
+      <a href="#skills">skills</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero wrap">
+    <p class="eyebrow">$ status: currently building</p>
+    <h1>I build things,<br>break things,<br>and write down<br>what I learn.</h1>
+    <p class="hero-sub">Computer science student. This site is a running log of projects, from
+      first commits to shipped builds.</p>
+    <div class="hero-links">
+      <a class="btn btn-primary" href="#work">See the log</a>
+      <a class="btn btn-ghost" href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </section>
+
+  <section id="work" class="work wrap">
+    <h2 class="section-title">Build log</h2>
+    <p class="section-sub">Projects, in the order they happened. Status tags show where each one stands.</p>
+
+    <div class="timeline">
+
+      <article class="entry">
+        <div class="entry-marker">
+          <span class="dot dot-shipped"></span>
+          <span class="entry-date">2026.04</span>
+        </div>
+        <div class="entry-body">
+          <div class="entry-head">
+            <h3>Project Name</h3>
+            <span class="tag tag-shipped">shipped</span>
+          </div>
+          <p>One or two sentences on what this project does and why you built it. Keep it concrete —
+            what problem, what it does, what you learned.</p>
+          <div class="entry-meta">
+            <span class="stack">Python · Flask · SQLite</span>
+            <span class="entry-links">
+              <a href="#">code ↗</a>
+              <a href="#">live ↗</a>
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-marker">
+          <span class="dot dot-progress"></span>
+          <span class="entry-date">2026.06</span>
+        </div>
+        <div class="entry-body">
+          <div class="entry-head">
+            <h3>Project Name</h3>
+            <span class="tag tag-progress">in progress</span>
+          </div>
+          <p>Description of what you're currently working on. It's fine for this to be unfinished —
+            that's the point of a log.</p>
+          <div class="entry-meta">
+            <span class="stack">JavaScript · React</span>
+            <span class="entry-links">
+              <a href="#">code ↗</a>
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-marker">
+          <span class="dot dot-shipped"></span>
+          <span class="entry-date">2026.02</span>
+        </div>
+        <div class="entry-body">
+          <div class="entry-head">
+            <h3>Project Name</h3>
+            <span class="tag tag-shipped">shipped</span>
+          </div>
+          <p>Another project description. Duplicate this whole &lt;article class="entry"&gt; block
+            for each new project you add.</p>
+          <div class="entry-meta">
+            <span class="stack">C++</span>
+            <span class="entry-links">
+              <a href="#">code ↗</a>
+            </span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="about" class="about wrap">
+    <h2 class="section-title">About</h2>
+    <div class="about-grid">
+      <p class="about-text">
+        Write a few sentences about yourself here — what you're studying, what draws you to CS,
+        and what kind of problems you like working on. Keep it in your own voice; this is the one
+        section that doesn't need to sound like documentation.
+      </p>
+      <dl class="about-facts">
+        <div><dt>studying</dt><dd>Computer Science</dd></div>
+        <div><dt>based in</dt><dd>Your City</dd></div>
+        <div><dt>interested in</dt><dd>topic, topic, topic</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="skills" class="skills wrap">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4>Languages</h4>
+        <p>Python, Java, C++, JavaScript</p>
+      </div>
+      <div class="skill-group">
+        <h4>Tools</h4>
+        <p>Git, VS Code, Linux</p>
+      </div>
+      <div class="skill-group">
+        <h4>Learning now</h4>
+        <p>Whatever you're currently picking up</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact wrap">
+    <h2 class="section-title">Get in touch</h2>
+    <p class="section-sub">Open to internships, collaboration, or just talking shop.</p>
+    <div class="contact-links">
+      <a href="mailto:you@email.com">you@email.com</a>
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer wrap">
+  <p>Built with HTML &amp; CSS, deployed on GitHub Pages.</p>
+</footer>
+
+</body>
+</html>
