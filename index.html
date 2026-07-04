@@ -23,23 +23,80 @@
   </div>
 </header>
 
-<main class="wrap layout">
+<main>
 
-  <aside class="sidebar">
+  <section class="hero wrap">
+    <p class="eyebrow">$ status: currently building</p>
+    <h1>I build things,<br>break things,<br>and write down<br>what I learn.</h1>
+    <p class="hero-sub">High school student headed for computer science. This site is a running
+      log of what I've built so far, from class assignments to side projects.</p>
+    <div class="hero-links">
+      <a class="btn btn-primary" href="#work">See the log</a>
+      <a class="btn btn-ghost" href="https://github.com/RER-aero" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </section>
 
-    <div class="side-block">
-      <p class="eyebrow">$ status: currently building</p>
-      <h1>I build things,<br>break things,<br>and write down<br>what I learn.</h1>
-      <p class="hero-sub">High school student headed for computer science. This site is a running
-        log of what I've built so far, from class assignments to side projects.</p>
-      <div class="hero-links">
-        <a class="btn btn-primary" href="#work">See the log</a>
-        <a class="btn btn-ghost" href="https://github.com/RER-aero" target="_blank" rel="noopener">GitHub ↗</a>
+  <section id="work" class="work wrap">
+    <h2 class="section-title">Build log</h2>
+    <p class="section-sub">Projects, in the order they happened. Status tags show where each one stands.</p>
+
+    <div class="log-card">
+      <div class="timeline-scroll">
+        <div class="timeline">
+
+          <article class="entry">
+            <div class="entry-marker">
+              <span class="dot dot-shipped"></span>
+            </div>
+            <div class="entry-body">
+              <span class="entry-date">2026.01</span>
+              <div class="entry-head">
+                <h3>RELICSGALORE</h3>
+                <span class="tag tag-shipped">periodic updates</span>
+              </div>
+              <p>My first ever mod. Relics Galore is a vanilla+ mod, created to fill the gap of pure
+                relic mods at the time. It adds new relics and a few milestones.</p>
+              <div class="entry-meta">
+                <span class="stack">Lua · ADVR Modding API</span>
+                <span class="entry-links">
+                  <a href="#">code ↗</a>
+                  <a href="#">live ↗</a>
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-marker">
+              <span class="dot dot-progress"></span>
+            </div>
+            <div class="entry-body">
+              <span class="entry-date">2026.06</span>
+              <div class="entry-head">
+                <h3>ADVRmon</h3>
+                <span class="tag tag-progress">in progress</span>
+              </div>
+              <p>A gameplay mod that adds a new weapon combo letting you catch enemies and use them
+                as loyal companions. Based on Pokémon — I originally built it because I wanted a mod
+                that did more than just add upgrades. This is my most-worked-on mod and the one I'm
+                most proud of.</p>
+              <div class="entry-meta">
+                <span class="stack">Lua · ADVR Modding API</span>
+                <span class="entry-links">
+                  <a href="#">code ↗</a>
+                </span>
+              </div>
+            </div>
+          </article>
+
+        </div>
       </div>
     </div>
+  </section>
 
-    <div class="side-block" id="about">
-      <h4 class="side-heading">About</h4>
+  <section id="about" class="about wrap">
+    <h2 class="section-title">About</h2>
+    <div class="about-grid">
       <p class="about-text">
         Hey there, I'm RER. I'm a high school student with an interest in computer science.
         I'm a lover of video games — from VR to PC, I've played a decent amount, which for the
@@ -47,99 +104,38 @@
         looking to take the skills I learned from those games and put them into games and mods
         made with actual programming languages.
       </p>
-      <p class="about-text">
-        Why do I like computer science? I enjoy the problem solving of CS — it's one of the
-        reasons why I like game dev so much.
-      </p>
       <dl class="about-facts">
         <div><dt>grade</dt><dd>11th grade</dd></div>
         <div><dt>school</dt><dd>Your High School</dd></div>
         <div><dt>interested in</dt><dd>game dev, modding, VR</dd></div>
       </dl>
     </div>
+  </section>
 
-    <div class="side-block" id="skills">
-      <h4 class="side-heading">Skills</h4>
+  <section id="skills" class="skills wrap">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
       <div class="skill-group">
-        <h5>Languages</h5>
+        <h4>Languages</h4>
         <p>Lua, C</p>
       </div>
       <div class="skill-group">
-        <h5>Tools</h5>
+        <h4>Tools</h4>
         <p>Git, VS Code</p>
       </div>
       <div class="skill-group">
-        <h5>Learning now</h5>
+        <h4>Learning now</h4>
         <p>Love2D game framework</p>
       </div>
     </div>
+  </section>
 
-    <div class="side-block" id="contact">
-      <h4 class="side-heading">Get in touch</h4>
-      <p class="section-sub-small">Open to hackathons, club projects, or just talking shop.</p>
-      <div class="contact-links">
-        <a href="mailto:rerlovesfih@gmail.com">rerlovesfih@gmail.com</a>
-        <a href="https://github.com/RER-aero" target="_blank" rel="noopener">GitHub</a>
-      </div>
-    </div>
-
-  </aside>
-
-  <section id="work" class="log-panel">
-    <div class="log-panel-head">
-      <h2 class="section-title">Build log</h2>
-      <p class="section-sub">Projects, in the order they happened. Status tags show where each one stands.</p>
-    </div>
-
-    <div class="timeline-scroll">
-      <div class="timeline">
-
-        <article class="entry">
-          <div class="entry-marker">
-            <span class="dot dot-shipped"></span>
-          </div>
-          <div class="entry-body">
-            <span class="entry-date">2026.01</span>
-            <div class="entry-head">
-              <h3>RELICSGALORE</h3>
-              <span class="tag tag-shipped">periodic updates</span>
-            </div>
-            <p>My first ever mod. Relics Galore is a vanilla+ mod, created to fill the gap of pure
-              relic mods at the time. It adds new relics and a few milestones.</p>
-            <div class="entry-meta">
-              <span class="stack">Lua · ADVR Modding API</span>
-              <span class="entry-links">
-                <a href="#">code ↗</a>
-                <a href="#">live ↗</a>
-              </span>
-            </div>
-          </div>
-        </article>
-
-        <article class="entry">
-          <div class="entry-marker">
-            <span class="dot dot-progress"></span>
-          </div>
-          <div class="entry-body">
-            <span class="entry-date">2026.06</span>
-            <div class="entry-head">
-              <h3>ADVRmon</h3>
-              <span class="tag tag-progress">in progress</span>
-            </div>
-            <p>A gameplay mod that adds a new weapon combo letting you catch enemies and use them
-              as loyal companions. Based on Pokémon — I originally built it because I wanted a mod
-              that did more than just add upgrades. This is my most-worked-on mod and the one I'm
-              most proud of.</p>
-            <div class="entry-meta">
-              <span class="stack">Lua · ADVR Modding API</span>
-              <span class="entry-links">
-                <a href="#">code ↗</a>
-              </span>
-            </div>
-          </div>
-        </article>
-
-      </div>
+  <section id="contact" class="contact wrap">
+    <h2 class="section-title">Get in touch</h2>
+    <p class="section-sub">Open to hackathons, club projects, or just talking shop.</p>
+    <div class="contact-links">
+      <a href="mailto:rerlovesfih@gmail.com">rerlovesfih@gmail.com</a>
+      <a href="https://github.com/RER-aero" target="_blank" rel="noopener">GitHub</a>
     </div>
   </section>
 
