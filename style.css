@@ -163,11 +163,8 @@ section { padding: 64px 0; border-top: 1px solid var(--line); }
 
 .entry-marker {
   position: absolute;
-  left: -34px;
-  top: 4px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  left: -33px;
+  top: 8px;
 }
 
 .dot {
@@ -185,9 +182,8 @@ section { padding: 64px 0; border-top: 1px solid var(--line); }
   font-size: 11px;
   color: var(--ink-soft);
   white-space: nowrap;
-  position: absolute;
-  left: 20px;
-  top: -2px;
+  display: block;
+  margin-bottom: 4px;
 }
 
 .entry-body { padding-left: 4px; }
@@ -310,5 +306,4 @@ section { padding: 64px 0; border-top: 1px solid var(--line); }
   .about-grid { grid-template-columns: 1fr; gap: 24px; }
   .skills-grid { grid-template-columns: 1fr; gap: 20px; }
   nav { gap: 16px; }
-  .entry-date { position: static; margin-left: 6px; }
 }
