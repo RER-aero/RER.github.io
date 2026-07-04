@@ -201,8 +201,14 @@ nav a:hover { color: var(--pine-dark); }
 }
 .contact-links a:hover { border-color: var(--pine); color: var(--pine-dark); }
 
-/* ---- Discord button ---- */
-.discord-btn {
+/* ---- Icon buttons (Discord, GitHub) ---- */
+.icon-btn-row {
+  display: flex;
+  gap: 28px;
+  margin-top: 8px;
+}
+
+.icon-btn {
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -210,17 +216,15 @@ nav a:hover { color: var(--pine-dark); }
   width: 44px;
   height: 44px;
   border-radius: 10px;
-  background: var(--pine);
   color: #fff;
   text-decoration: none;
   transition: border-radius 0.4s ease, background 0.3s ease, transform 0.3s ease;
 }
-.discord-btn:hover {
+.icon-btn:hover {
   border-radius: 50%;
-  background: var(--pine-dark);
   transform: translateY(-2px);
 }
-.discord-label {
+.icon-btn-label {
   position: absolute;
   bottom: -22px;
   left: 50%;
@@ -232,7 +236,25 @@ nav a:hover { color: var(--pine-dark); }
   white-space: nowrap;
   transition: opacity 0.3s ease;
 }
-.discord-btn:hover .discord-label { opacity: 1; }
+.icon-btn:hover .icon-btn-label { opacity: 1; }
+
+.discord-btn { background: var(--pine); }
+.discord-btn:hover { background: var(--pine-dark); }
+
+.github-btn { background: var(--ink); }
+.github-btn:hover { background: #000; }
+
+/* ---- Contact (full width, below the grid) ---- */
+.contact {
+  padding: 56px 0 64px;
+  border-top: 1px solid var(--line);
+}
+.contact .section-title { margin-bottom: 8px; }
+.contact .section-sub { margin-bottom: 24px; }
+.contact .contact-links {
+  flex-direction: row;
+  margin-bottom: 0;
+}
 
 /* ---- Right column: log panel ---- */
 .right-col { padding-top: 0; }
